@@ -1,0 +1,24 @@
+html {
+    font-size: 24px;
+}
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+h1, h2, p {
+    margin: 0;
+}
+.service__card {
+    box-shadow: 0 0 .2rem 0 #0002;
+    border-radius: .2rem;
+    display: flex;
+    gap: 1rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
